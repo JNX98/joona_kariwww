@@ -1,0 +1,36 @@
+header, footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    min-height: 75px;
+}
+nav{
+    float: left;
+    background-color: lightgray;
+    min-height: 465px;
+    min-width: 150px;
+}
+a, li{
+    display: flex;
+    margin: 5px;
+    text-align: justify;
+    background-color: white;
+    line-height: 50px;
+    max-width: fit-content;
+    font-size: 14px;
+    flex-direction: column;
+
+}
+a.hover{
+
+}
+article{
+    margin: 20px;
+    float: center;
+    text-align: center;
+    word-wrap: break-word;
+}
+.flexnav{
+display: flex;
+flex-direction: column;
+}
